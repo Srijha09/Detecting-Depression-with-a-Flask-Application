@@ -8,3 +8,7 @@ The mental health of young adults and teenagers proves to be vitalfor having a f
 Flask is a web framework for the programming language python, whichmeans it offers features to create web applications, including handling HTTPrequests  and  creating  templates.  The  Python  Flask  framework  has  beendeployed to identify emotions and recognize the level of depression from auser  input  sentence.   According  to  Figure  11,  the  pre-processed  tokenizedwords are converted to word embeddings using the pretrained GloVe wordembeddings.  The word embeddings are trained with each model to producepredictions which is then followed by ensemble averaging method to producebetter predictions.  The ensemble predictions are then written into the Flaskserver and the predictions are outputted based on the user’s input.
 
 ![Flask Application Architecture](img/flask.PNG)
+
+## Flask Application Screenshots
+### Level-1 Mild Symptoms
+![level1](img/level1.PNG)
