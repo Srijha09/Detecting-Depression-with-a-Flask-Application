@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detecting depression</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="contact-form">
+        <h2>Depression and Anxiety Analysis</h2>
+        <h3>The mental health of young adults and teenagers proves to be vital for having a flourishing life. Neglecting the issue of mental health can lead to anxiety, stress, and depression. These problems need to be addressed in the early stages to ensure better mental health for young adults. This application detects the levels of distress when a sentence is input by the user.</h3>
+        <form action='/predict' method="post">
+         
+           <textarea  name= "sentence" placeholder="Enter a Sentence" rows = "8" cols = "50" name = "description"></textarea>
+           </br>
+            <input type="submit" name="" value="predict">
+        <h2 style="margin-top:25% " color: #00FF00>{{prediction}}<h2>
+ 
+        </form>
+    </div>
+</body>
+</html>
