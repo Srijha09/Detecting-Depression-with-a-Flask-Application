@@ -14,4 +14,5 @@ Flask is a web framework for the programming language python, whichmeans it offe
 ![level1](img/level1.PNG)
 
 ### Level-2 Moderate Symptoms
+![level2](img/level2.PNG)
 
