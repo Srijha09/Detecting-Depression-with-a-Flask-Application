@@ -10,6 +10,9 @@ Flask is a web framework for the programming language python, whichmeans it offe
 ![Flask Application Architecture](img/flask.PNG)
 
 ## Flask Application Screenshots
+### Level-0 No Symptoms
+![level1](img/level0.PNG)
+
 ### Level-1 Mild Symptoms
 ![level1](img/level1.PNG)
 
